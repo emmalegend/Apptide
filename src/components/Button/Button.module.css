@@ -1,0 +1,11 @@
+.button button {
+  border: none;
+  padding: 1rem 3rem;
+  background: #fa3d3d;
+  border-radius: 0.5rem;
+  color: #fff;
+  font-weight: 400;
+  font-size: 1.6rem;
+  cursor: pointer;
+  font-family: poppins;
+}

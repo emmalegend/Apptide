@@ -1,0 +1,20 @@
+.line1{
+    position: relative;
+    top: -25rem;
+    left: 35rem;
+    z-index: -1;
+}
+.line2{
+    position: relative;
+    top: -30rem;
+    right: -45rem;
+    z-index: -1;
+}
+@media screen and (max-width: 1200px) {
+   .line1{
+       display: none;
+   }
+   .line2{
+       display: none;
+   }
+}

@@ -1,0 +1,68 @@
+
+.hero_container{
+    margin: 2% auto;
+    text-align: center;
+}
+.text{
+    text-align: center;
+        font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+}
+
+.hero_buttons{
+    width: 30%;
+    display: flex;
+    margin: 3% auto;
+    justify-content: space-between;
+}
+.hero_icons::after{
+    content: "A";
+    position: relative;
+    left: -35rem;
+    top: 6rem;
+    font-size: 2rem;
+    color: var(--primary-color);
+    font-family: poppins;
+    background: #fff;
+    box-shadow: 0 4px 50px rgb(0 0 0 / 10%);
+    border-radius: 100%;
+    padding: 15px;
+    z-index: -1;
+}
+.hero_icons::before{
+    content: "B";
+    position: relative;
+    left: 50rem;
+    top: 6rem;
+    font-size: 2rem;
+    color: var(--primary-color);
+    font-family: poppins;
+    background: #fff;
+    box-shadow: 0 4px 50px rgb(0 0 0 / 10%);
+    border-radius: 100%;
+    padding: 15px;
+    z-index: -1;
+}
+.hero_c::after{
+    content: "C";
+    position: relative;
+    top:10rem;
+    left: 20rem;
+    font-size: 2rem;
+    color: var(--primary-color);
+    font-family: poppins;
+    background: #fff;
+    box-shadow: 0 4px 50px rgb(0 0 0 / 10%);
+    border-radius: 100%;
+    padding: 15px;
+    z-index: -1;
+}
+@media screen and (max-width: 1200px) {
+   .hero_c::after, .hero_icons::after, .hero_icons::before{
+       display: none;
+   }
+   .hero_buttons{
+       width: 40%;
+   }
+}

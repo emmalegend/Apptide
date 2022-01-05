@@ -1,0 +1,17 @@
+.polygon_container{
+    position: relative;
+    top: -36rem;
+    z-index: -1;
+}
+
+.polygon2{
+    position: relative;
+    margin-bottom: 17rem;
+    margin-left: -33rem;
+    z-index: -2;
+}
+@media screen and (max-width: 1200px) {
+   .polygon_container{
+       display: none;
+   }
+}
