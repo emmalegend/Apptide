@@ -1,6 +1,7 @@
 import React from 'react'
 import Container1 from './components/Container1/Container1'
 import Container2 from './components/Container2/Container2'
+import Container3 from './components/Container3/Container3'
 import Header from './components/Header/Header'
 import Lines from './components/Lines/Lines'
 import NavBar from './components/NavBar/NavBar'
@@ -15,6 +16,7 @@ const App = () => {
       <Polygon />
       <Container1 />
       <Container2 />
+      <Container3 />
     </>
   )
 }

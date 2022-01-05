@@ -66,3 +66,17 @@
        width: 40%;
    }
 }
+
+@media screen and (max-width:950px){
+    .hero_buttons{
+       width: 60%;
+   }
+}
+@media screen and (max-width:620px){
+    .hero_buttons{
+      flex-direction: column;
+   }
+   .hero_buttons button{
+       margin: 1rem auto;
+   }
+}

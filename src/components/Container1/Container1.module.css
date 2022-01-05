@@ -10,18 +10,18 @@
   z-index: -1;
 }
 
-.img1_container::before{
-  content: url('../../assets/Vector-left.svg');
+.img1_container::before {
+  content: url("../../assets/Vector-left.svg");
   position: absolute;
   left: -35rem;
   top: 25rem;
   z-index: -1;
 }
-.text_container{
+.text_container {
   margin-top: -60rem;
 }
-.text_container::after{
-  content: url('../../assets/Vector-right.svg');
+.text_container::after {
+  content: url("../../assets/Vector-right.svg");
   position: absolute;
   right: 20rem;
   z-index: -1;
@@ -31,7 +31,7 @@
   aspect-ratio: auto 320 / 720;
   height: 720px;
 }
-.text_container_individual{
+.text_container_individual {
   margin: 8rem 0;
 }
 .text_container_individual h3 {
@@ -45,21 +45,38 @@
   font-size: 16px;
   line-height: 24px;
 }
-.text_container_img{
+.text_container_img {
   color: var(--primary-color);
   height: 3rem;
   width: 3rem;
 }
 @media screen and (max-width: 1200px) {
-   .img1_container::before, .text_container::after{
-     display: none;
-   }
+  .img1_container::before,
+  .text_container::after {
+    display: none;
+  }
 
-   .section1_container{
-     margin: 0;
-     justify-content: space-around;
-   }
-   .text_container{
-     margin: 0;
-   }
+  .section1_container {
+    margin: 0;
+    justify-content: space-around;
+  }
+  .text_container {
+    margin: 0;
+  }
+}
+@media screen and (max-width: 950px) {
+  .section1_container {
+    flex-direction: column;
+  }
+  .text_container {
+    text-align: center;
+    padding: 0 3rem;
+  }
+  .img1_container{
+    margin: 0 auto;
+  }
+  .img1 {
+    width: 250px;
+    height: 520px;
+  }
 }
