@@ -1,13 +1,24 @@
 import React from "react";
 import Button from "../Button/Button";
 import styles from "./Header.module.css";
+import Typewriter from "typewriter-effect";
+
+const words = ["Consult Health Care professionals", "Purchase prescribed Drugs","All in One App"];
 
 const Header = () => {
   return (
     <header className={styles.hero_container}>
       <div className={styles.hero_icons} />
-      <div>
-        <h1>Consult Health Care Professionals</h1>
+      <div className={styles.typewriter}>
+        <h1>
+          <Typewriter
+            options={{
+              strings: words,
+              autoStart: true,
+              loop: true,
+            }}
+          />
+        </h1>
       </div>
       <div className={styles.text}>
         Get connected with highly experienced medical health care

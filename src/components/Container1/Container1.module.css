@@ -8,6 +8,7 @@
 .img1_container {
   filter: drop-shadow(47.77px 68.24px 136.48px rgba(0, 0, 0, 0.17));
   z-index: -1;
+  margin-right: 2rem;
 }
 
 .img1_container::before {

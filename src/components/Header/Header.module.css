@@ -9,9 +9,17 @@
     font-size: 1.6rem;
     line-height: 2.4rem;
 }
+.typewriter{
+    margin: 2rem 0;
+}
+.typewriter h1{
+    font-size: 30px;
+    line-height: 30px;
+    font-weight: 700;
+}
 
 .hero_buttons{
-    width: 30%;
+    width: 33%;
     display: flex;
     margin: 3% auto;
     justify-content: space-between;

@@ -1,0 +1,22 @@
+.nav_logo {
+  width: 140px;
+}
+.nav_logo a {
+  font-family: Poppins;
+  color: #fa3d3d;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2.4rem;
+  text-decoration: none;
+}
+.nav_logo a:hover {
+  text-decoration: none;
+  color: var(--primary-color);
+}
+.ellipse {
+  margin: 0 0.3rem;
+}
+.ellipse_container {
+  display: flex;
+  justify-content: center;
+}
